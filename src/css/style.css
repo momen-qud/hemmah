@@ -564,7 +564,7 @@ iframe{
   flex-direction: column;
 }
 .footer .brand-logo{
-margin-bottom: 15px;
+padding-block: 15px;
 }
   .footer li:last-child{
     margin-bottom:10px;

@@ -358,7 +358,8 @@ iframe{
 
 .testimonial__photo {
   grid-row: 1 / span 2;
-  width: 65px;
+  width: 60px;
+  height:55px;
   border-radius: 50%;
 }
 

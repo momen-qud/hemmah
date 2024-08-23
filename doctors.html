@@ -166,5 +166,14 @@
         </ul>
       </nav>
     </footer>
+        <script>
+      const menuLabel = document.querySelector(".navigation__button");
+      document
+        .querySelector(".navigation__item:nth-child(2) .navigation__link")
+        .addEventListener("click", function () {
+          menuLabel.click();
+        });
+
+    </script>
   </body>
 </html>

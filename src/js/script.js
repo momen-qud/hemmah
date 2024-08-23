@@ -78,3 +78,8 @@ const slider = function () {
   });
 };
 slider();
+
+const menuLabel = document.querySelector(".navigation__button");
+document.querySelectorAll(".navigation__link").forEach(el => el.addEventListener("click", function () {
+      menuLabel.click();
+}));

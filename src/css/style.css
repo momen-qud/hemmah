@@ -416,6 +416,7 @@ iframe{
   
 .header .brand-logo{
   justify-content: flex-start;
+  padding-top:10px;
 }
 .navigation__button {
   background-color: #fff;
@@ -423,8 +424,8 @@ iframe{
   width: 48px;
   border-radius: 50%;
   position: fixed;
-  top: 0;
-  left: 60px;
+  top: 10px;
+  left: 15px;
   z-index: 2000;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -436,8 +437,8 @@ iframe{
   width: 32px;
   border-radius: 50%;
   position: fixed;
-  top: 0;
-  left: 65px;
+  top: 18px;
+  left: 24px;
   background-image: radial-gradient(var(--color-secondary), var(--color-primary));
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);

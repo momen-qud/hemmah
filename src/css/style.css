@@ -74,6 +74,7 @@ li a:hover {
   font-size: 42px;
   @media (width < 576px){
     font-size: 27px;
+    padding-bottom:10px;
   }
   color: #fff;
 }

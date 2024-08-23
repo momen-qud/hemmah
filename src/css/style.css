@@ -44,6 +44,10 @@ li a:hover {
 .header.consult-header {
   background: center/100% 100% url("../img/consult.jpeg") no-repeat,
     rgba(0, 0, 0, 0.5);
+      @media (width < 576px) {
+      background: center/cover url("../img/consult-sm.jpeg") no-repeat,
+      rgba(0, 0, 0, 0.5);
+    }
   height: 85vh;
 }
 

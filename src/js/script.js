@@ -78,7 +78,3 @@ const slider = function () {
   });
 };
 slider();
-
-$(".navigation__link").on("click", function () {
-  $(".navigation__button").click();
-});

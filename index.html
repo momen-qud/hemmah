@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="./src/js/script.js"></script>
+    <title>Hemmah</title>
+  </head>
+  <body>
+    <header class="header main-header" id="home">
+      <div class="container">
+        <nav class="navbar">
+          <div class="brand-logo">
+            <img
+              class="brand-img"
+              src="./src/img/logo_white.png"
+              alt="green opened book"
+            />
+            <a class="brand-name" href="#home">همة</a>
+          </div>
+          <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+              <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+              <ul class="navigation__list">
+                <li class="navigation__item"><a href="./index.html" class="navigation__link">الرئيسية</a></li>
+                <li class="navigation__item"><a href="./doctors.html" class="navigation__link">استشارة</a></li>
+                <li class="navigation__item"><a href="./index.html#educate" class="navigation__link">تثقيف</a></li>
+                <li class="navigation__item"><a  href="./index.html#shop" class="navigation__link">شراء المستلزمات</a></li>
+              </ul>
+            </nav>
+          </div>
+        </nav>
+        <div class="header-text">
+          <h1>تواصل مع أفضل الأطباء</h1>
+          <h4></h4>
+          <a class="btn" target="_blank" href="./doctors.html">
+            إبدأ الاستشارة
+            <span class="material-symbols-outlined"> open_in_new </span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="section" id="educate">
+      <div class="container">
+        <div class="section__title section__title--testimonials">
+          <h2 class="section__description">
+            تثقيف صحي عن حالات ذوي الإحتياجات الخاصة
+          </h2>
+          <h3 class="section__header">
+            طرق التعامل الصحيح معهم و الأدوية و العلاجات الخاصة بهم
+          </h3>
+        </div>
+
+        <div class="slider">
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__header">
+                التعامل الصحيح مع ذوي الاحتياجات الخاصة
+              </h5>
+              <blockquote class="testimonial__text">
+                من المهم توفير بيئة داعمة وآمنة لهم. يجب احترام خصوصيتهم وعدم
+                تقديم المساعدة إلا إذا طلبوها أو كانوا بحاجة واضحة إليها. من
+                الضروري أيضًا استخدام لغة إيجابية وترك الوقت الكافي لهم للتعبير
+                عن أنفسهم.
+              </blockquote>
+              <address class="testimonial__author">
+                <img
+                  src="./src/img/doctor-1.jpeg"
+                  alt=""
+                  class="testimonial__photo"
+                />
+                <h6 class="testimonial__name">د. مريم صلاح</h6>
+                <p class="testimonial__location">إربد</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__header">
+                الأدوية والعلاجات الخاصة بذوي الاحتياجات الخاصة
+              </h5>
+              <blockquote class="testimonial__text">
+                قد يحتاج بعض الأشخاص ذوي الاحتياجات الخاصة إلى أدوية أو علاجات
+                مخصصة لحالتهم الصحية. من المهم أن يكون لدى مقدمي الرعاية معرفة
+                كاملة بأسماء الأدوية، الجرعات، وأوقات تناولها. يجب استشارة
+                الأطباء المتخصصين قبل إجراء أي تعديل في العلاج.
+              </blockquote>
+              <address class="testimonial__author">
+                <img
+                  src="./src/img/doctor-2.jpeg"
+                  alt=""
+                  class="testimonial__photo"
+                />
+                <h6 class="testimonial__name">د. ليان الخطيب</h6>
+                <p class="testimonial__location">عمان</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="testimonial__header">التوعية والدمج المجتمعي</h5>
+              <blockquote class="testimonial__text">
+                جزء من التثقيف الصحي يتضمن رفع الوعي المجتمعي حول قدرات ذوي
+                الاحتياجات الخاصة وأهمية دمجهم في المجتمع. هذا يشمل تعديل
+                المرافق العامة لتكون ملائمة لهم، وتوفير الفرص التعليمية والمهنية
+                المتكافئة، وتشجيع التفاعل الإيجابي بينهم وبين أفراد المجتمع.
+              </blockquote>
+              <address class="testimonial__author">
+                <img
+                  src="./src/img/doctor-3.jpeg"
+                  alt=""
+                  class="testimonial__photo"
+                />
+                <h6 class="testimonial__name">د. يوسف العبادي</h6>
+                <p class="testimonial__location">جرش</p>
+              </address>
+            </div>
+          </div>
+
+          <button class="slider__btn slider__btn--left">&rarr;</button>
+          <button class="slider__btn slider__btn--right">&larr;</button>
+          <div class="dots"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section invert" id="shop">
+      <div class="container">
+        <div class="row">
+            <div class="section__title col col-12">
+                <h2 class="section__description">
+                  شراء المستلزمات الطبية التي يحتاجها ذوي الإحتياجات الخاصة
+                </h2>
+                <h3 class="section__header">المتاجر المقترحة :</h3>
+              </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-location">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54140.61921684791!2d35.78804442167971!3d31.99374300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca1c565421067%3A0x9105b39d5c8dadf2!2z2YXYs9iq2YTYstmF2KfYqiDZiNij2KzZh9iy2Kkg2LfYqNmK2KkgLSDZhdit2YXYryDYp9mE2YTYrdin2YUgLSBIb21lIENhcmUgLSDYqtmE2KfYuSDYp9mE2LnZhNmKIC0g2K7ZhNiv2KcgLSDYpdi02KfYsdipINin2YTYudiz2KfZgSDZhdis2YXYuSDYsdmC2YUg2aLZoNmp!5e0!3m2!1sen!2sjo!4v1724434863729!5m2!1sen!2sjo"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="content">
+                <h3>Home care</h3>
+                <span>0798661017</span>
+              </div>
+            </div>
+          </div>
+        <div class="col col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-location">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54140.61921684791!2d35.78804442167971!3d31.99374300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c9fa54a38dee1%3A0x67203c28a56074d4!2z2KfZhNiv2LHYuSDYp9mE2LfYqNmK!5e0!3m2!1sen!2sjo!4v1724435079980!5m2!1sen!2sjo"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="content">
+              <h3>الدرع الطبي</h3>
+              <span>0796651331</span>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-location">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54149.1360490454!2d35.827964721679685!3d31.979312500000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca0113c595e59%3A0x5e91fab06175eb73!2z2YLYr9ix2KfYqiDZhNmE2KrYrNmH2YrYstin2Kog2KfZhNi32KjZitipIENhcGFiaWxpdGllcyBmb3IgTWVkaWNhbCBTdXBwbGllcy8g2KfYrNmH2LLYqSDYt9io2YrYqS8gUXVkdXJhdC8!5e0!3m2!1sen!2sjo!4v1724435142751!5m2!1sen!2sjo"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="content">
+              <h3>قدرات للتجهيزات الطبية</h3>
+              <span>0796664328</span>
+            </div>
+          </div>
+        </div>
+    </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <nav class="navbar">
+        <div class="brand-logo">
+          <img
+            class="brand-img"
+            src="./src/img/logo_white.png"
+            alt="green opened book"
+          />
+          <a class="brand-name" href="#home">همة</a>
+        </div>
+        <ul class="navbar__links" id="header-navbar">
+          <li><a class="nav__link" href="#home">الرئيسية</a></li>
+          <li><a class="nav__link" href="./doctors.html">استشارة</a></li>
+          <li><a class="nav__link" href="#educate">تثقيف</a></li>
+          <li><a class="nav__link" href="#shop">شراء المستلزمات</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

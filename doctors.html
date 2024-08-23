@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Doctors</title>
+  </head>
+  <body>
+    <header class="header consult-header" id="home">
+      <div class="container">
+        <nav class="navbar">
+          <div class="brand-logo">
+            <img
+              class="brand-img"
+              src="./src/img/logo_white.png"
+              alt="green opened book"
+            />
+            <a class="brand-name" href="./index.html">همة</a>
+          </div>
+          <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+              <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+              <ul class="navigation__list">
+                <li class="navigation__item"><a href="./index.html" class="navigation__link">الرئيسية</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">استشارة</a></li>
+                <li class="navigation__item"><a href="./index.html#educate" class="navigation__link">تثقيف</a></li>
+                <li class="navigation__item"><a  href="./index.html#shop" class="navigation__link">شراء المستلزمات</a></li>
+              </ul>
+            </nav>
+          </div>
+        </nav>
+        <!-- </div> -->
+        <div class="header-text">
+          <h1>احصل على استشارة طبية</h1>
+
+          <form action="#">
+            <label class="search-label">
+              <input class="search-input" type="text" placeholder="إبحث عن دكتور ..."/>
+              <svg
+              viewBox="0 0 56.7 56.7"
+              xmlns="http://www.w3.org/2000/svg"
+              class="search-icon"
+            >
+              <path
+                d="M42.8 7.3C33-2.4 17.1-2.4 7.3 7.3c-9.8 9.8-9.8 25.7 0 35.5 8.7 8.7 22.2 9.7 32 2.9l9.6 9.6c1.8 1.8 4.7 1.8 6.4 0 1.8-1.8 1.8-4.7 0-6.4l-9.6-9.6c6.8-9.8 5.8-23.3-2.9-32zm-6.2 29.3c-6.4 6.4-16.7 6.4-23.1 0s-6.4-16.7 0-23.1 16.7-6.4 23.1 0 6.4 16.8 0 23.1z"
+              ></path>
+            </svg>
+            </label>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>الأطباء المقترحين:</h2>
+            <div class="row justify-content-center">
+                <div class="col col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                          <img 
+                            src="./src/img/doctor-1.jpeg"
+                          alt="card image">
+                        </div>
+                        <div class="content">
+                          <h3>د. مريم صلاح</h3>
+                          <p>عظام ومفاصل</p>
+                          <span>07812345679</span>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                          <img 
+                            src="./src/img/doctor-2.jpeg"
+                          alt="card image">
+                        </div>
+                        <div class="content">
+                          <h3>د. ليان الخطيب</h3>
+                          <p>أنف وأذن وحنجرة</p>
+                          <span>07812345679</span>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                          <img 
+                            src="./src/img/doctor-3.jpeg"
+                          alt="card image">
+                        </div>
+                        <div class="content">
+                          <h3>د. يوسف العبادي</h3>
+                          <p>عظام ومفاصل</p>
+                          <span>07812345679</span>
+                        </div>
+                      </div> 
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4">
+              <div class="card">
+                <div class="card-image">
+                  <img 
+                    src="./src/img/doctor-4.jpeg"
+                  alt="card image">
+                </div>
+                <div class="content">
+                    <h3>د. آدم العوضي</h3>
+                    <p> سمع ونظق</p>
+                    <span>07812345679</span>
+                </div>
+              </div> 
+                </div>
+                <div class="col col-12 col-md-6 col-lg-4">
+                    
+              <div class="card">
+                <div class="card-image">
+                  <img 
+                    src="./src/img/doctor-5.jpeg"
+                  alt="card image">
+                </div>
+                <div class="content">
+                  <h3> د. نورا الحوراني</h3>
+                  <p> سمع ونظق</p>
+                  <span>07812345679</span>
+                </div>
+              </div> 
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+      <nav class="navbar">
+        <div class="brand-logo">
+          <img
+            class="brand-img"
+            src="./src/img/logo_white.png"
+            alt="green opened book"
+          />
+          <a class="brand-name" href="./index.html">همة</a>
+        </div>
+        <ul class="navbar__links" id="header-navbar">
+          <li><a class="nav__link" href="./index.html">الرئيسية</a></li>
+          <li><a class="nav__link" href="#">استشارة</a></li>
+          <li><a class="nav__link" href="./index.html#educate">تثقيف</a></li>
+          <li><a class="nav__link" href="./index.html#shop">شراء المستلزمات</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

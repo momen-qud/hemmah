@@ -264,10 +264,13 @@ iframe{
   font-family: inherit;
   color: #333;
   border-radius: 50%;
-  height: 55px;
-  width: 55px;
+  height: 45px;
+  width: 45px;
   font-size: 32.5px;
   cursor: pointer;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider__btn--left {

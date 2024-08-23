@@ -565,4 +565,6 @@ iframe{
 .footer .brand-logo{
 margin-bottom: 15px;
 }
+  .footer li:last-child{
+    margin-bottom:10px;
 }
